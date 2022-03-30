@@ -19,3 +19,6 @@ insert into employee_payroll (nameofStudent, Salary, StartDate) values
 ('pratham', 80000.00, '17-June-2007'),
 ('vikrant', 40000.00, '18-May-2010'),
 ('prashant', 70000.00, '09-Jan-2009');
+
+--UC4 - Retrieve employee_payroll data
+select * from employee_payroll
