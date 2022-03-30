@@ -22,3 +22,8 @@ insert into employee_payroll (nameofStudent, Salary, StartDate) values
 
 --UC4 - Retrieve employee_payroll data
 select * from employee_payroll
+
+--UC5 - Retrieve salary of emp and  particular date range.
+select salary from employee_payroll where nameofStudent = 'Bill';
+select * from employee_payroll
+where StartDate between CAST ('2018-01-01' as date) and GETDATE()
